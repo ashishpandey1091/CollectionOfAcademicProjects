@@ -11,9 +11,21 @@ namespace PandeyBooks.Controllers.Web
     public class StoreController : Controller
     {
         // GET: /<controller>/
-        public IActionResult Index()
+        // GET: /Store/
+        public string Index()
         {
-            return View();
+            return "Hello from Store.Index()";
+        }
+        // GET: /Store/Browse
+        public string Browse()
+        {
+            return "Hello from Store.Browse()";
+        }
+        // GET: /Store/Details
+        public string Details()
+        {
+            return "Hello from Store.Details()";
         }
     }
+
 }
