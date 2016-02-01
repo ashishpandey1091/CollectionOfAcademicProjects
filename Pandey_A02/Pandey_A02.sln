@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CAD1DDB7-EF04-477A-9E41-B09880445BD0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{200D487E-CDFB-4CAA-BADD-ABF8C7546C1F}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Pandey_A02", "src\Pandey_A02\Pandey_A02.xproj", "{21E916C3-A13D-44DB-B4B3-3ECA77A63D2C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{21E916C3-A13D-44DB-B4B3-3ECA77A63D2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21E916C3-A13D-44DB-B4B3-3ECA77A63D2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21E916C3-A13D-44DB-B4B3-3ECA77A63D2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21E916C3-A13D-44DB-B4B3-3ECA77A63D2C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{21E916C3-A13D-44DB-B4B3-3ECA77A63D2C} = {CAD1DDB7-EF04-477A-9E41-B09880445BD0}
+	EndGlobalSection
+EndGlobal
