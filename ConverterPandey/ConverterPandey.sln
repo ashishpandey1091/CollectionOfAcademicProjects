@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D8AF68DB-B4C8-4CE5-9870-96015B68F8DB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0C5B6243-2683-4B34-9110-BDE3A506E188}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ConverterPandey", "src\ConverterPandey\ConverterPandey.xproj", "{B82D953D-CF09-43BC-A4C4-41314B4C6764}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B82D953D-CF09-43BC-A4C4-41314B4C6764}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B82D953D-CF09-43BC-A4C4-41314B4C6764}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B82D953D-CF09-43BC-A4C4-41314B4C6764}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B82D953D-CF09-43BC-A4C4-41314B4C6764}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B82D953D-CF09-43BC-A4C4-41314B4C6764} = {D8AF68DB-B4C8-4CE5-9870-96015B68F8DB}
+	EndGlobalSection
+EndGlobal
